@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB7FB61C225D1DC10058FB00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB61B225D1DC10058FB00 /* AppDelegate.swift */; };
+		CB7FB61E225D1DC10058FB00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB61D225D1DC10058FB00 /* ViewController.swift */; };
+		CB7FB621225D1DC10058FB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7FB61F225D1DC10058FB00 /* Main.storyboard */; };
+		CB7FB623225D1DC20058FB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7FB622225D1DC20058FB00 /* Assets.xcassets */; };
+		CB7FB626225D1DC20058FB00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7FB624225D1DC20058FB00 /* LaunchScreen.storyboard */; };
+		CB7FB631225D1DC30058FB00 /* swift_theme_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB630225D1DC30058FB00 /* swift_theme_demoTests.swift */; };
+		CB7FB63C225D1DC30058FB00 /* swift_theme_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB63B225D1DC30058FB00 /* swift_theme_demoUITests.swift */; };
+		CB7FB64B225D1DEA0058FB00 /* CuvvaTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB64A225D1DEA0058FB00 /* CuvvaTheme.swift */; };
+		CB7FB64E225D211F0058FB00 /* CuvvaFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB64D225D211F0058FB00 /* CuvvaFont.swift */; };
+		CB7FB653225D26F90058FB00 /* Extension+CuvvaFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB652225D26F90058FB00 /* Extension+CuvvaFont.swift */; };
+		CB7FB655225D27E60058FB00 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB654225D27E60058FB00 /* Extension+UIColor.swift */; };
+		CB7FB657225D2CE40058FB00 /* Extension+CuvvaTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB656225D2CE40058FB00 /* Extension+CuvvaTheme.swift */; };
+		CB7FB65A225D2D680058FB00 /* ThemeEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB659225D2D680058FB00 /* ThemeEnums.swift */; };
+		CB7FB65C225D305B0058FB00 /* Extension+NSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB65B225D305B0058FB00 /* Extension+NSDictionary.swift */; };
+		CB7FB65E225D32610058FB00 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB65D225D32610058FB00 /* Extension+String.swift */; };
+		CB7FB660225D38690058FB00 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB65F225D38690058FB00 /* Notifications.swift */; };
+		CB7FB662225D38D40058FB00 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB661225D38D40058FB00 /* Color.swift */; };
+		CB7FB666225D458B0058FB00 /* CuvvaThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB665225D458B0058FB00 /* CuvvaThemeManager.swift */; };
+		CB7FB66B225D48A90058FB00 /* default_theme.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7FB669225D48A90058FB00 /* default_theme.json */; };
+		CB7FB66C225D48A90058FB00 /* dark_theme.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7FB66A225D48A90058FB00 /* dark_theme.json */; };
+		CB7FB66E225D48D10058FB00 /* CuvvaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB66D225D48D10058FB00 /* CuvvaViewController.swift */; };
+		CB7FB670225DDCFD0058FB00 /* CuvvaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB66F225DDCFD0058FB00 /* CuvvaUIView.swift */; };
+		CB7FB672225DE1D90058FB00 /* CuvvaUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB671225DE1D90058FB00 /* CuvvaUILabel.swift */; };
+		CB7FB674225DF0B90058FB00 /* CuvvaShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB673225DF0B90058FB00 /* CuvvaShadow.swift */; };
+		CB7FB676225DFB890058FB00 /* Extension+CuvvaShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB675225DFB890058FB00 /* Extension+CuvvaShadow.swift */; };
+		CB7FB678225E049C0058FB00 /* CuvvaUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FB677225E049C0058FB00 /* CuvvaUIButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB7FB62D225D1DC30058FB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB7FB610225D1DC10058FB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB7FB617225D1DC10058FB00;
+			remoteInfo = "swift-theme-demo";
+		};
+		CB7FB638225D1DC30058FB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB7FB610225D1DC10058FB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB7FB617225D1DC10058FB00;
+			remoteInfo = "swift-theme-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB7FB618225D1DC10058FB00 /* swift-theme-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-theme-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7FB61B225D1DC10058FB00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB7FB61D225D1DC10058FB00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB7FB620225D1DC10058FB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB7FB622225D1DC20058FB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB7FB625225D1DC20058FB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB7FB627225D1DC30058FB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7FB62C225D1DC30058FB00 /* swift-theme-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-theme-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7FB630225D1DC30058FB00 /* swift_theme_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_theme_demoTests.swift; sourceTree = "<group>"; };
+		CB7FB632225D1DC30058FB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7FB637225D1DC30058FB00 /* swift-theme-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-theme-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7FB63B225D1DC30058FB00 /* swift_theme_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_theme_demoUITests.swift; sourceTree = "<group>"; };
+		CB7FB63D225D1DC30058FB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7FB64A225D1DEA0058FB00 /* CuvvaTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuvvaTheme.swift; sourceTree = "<group>"; };
+		CB7FB64D225D211F0058FB00 /* CuvvaFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuvvaFont.swift; sourceTree = "<group>"; };
+		CB7FB652225D26F90058FB00 /* Extension+CuvvaFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CuvvaFont.swift"; sourceTree = "<group>"; };
+		CB7FB654225D27E60058FB00 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		CB7FB656225D2CE40058FB00 /* Extension+CuvvaTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CuvvaTheme.swift"; sourceTree = "<group>"; };
+		CB7FB659225D2D680058FB00 /* ThemeEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEnums.swift; sourceTree = "<group>"; };
+		CB7FB65B225D305B0058FB00 /* Extension+NSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSDictionary.swift"; sourceTree = "<group>"; };
+		CB7FB65D225D32610058FB00 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		CB7FB65F225D38690058FB00 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		CB7FB661225D38D40058FB00 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CB7FB665225D458B0058FB00 /* CuvvaThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuvvaThemeManager.swift; sourceTree = "<group>"; };
+		CB7FB669225D48A90058FB00 /* default_theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = default_theme.json; sourceTree = "<group>"; };
+		CB7FB66A225D48A90058FB00 /* dark_theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dark_theme.json; sourceTree = "<group>"; };
+		CB7FB66D225D48D10058FB00 /* CuvvaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuvvaViewController.swift; sourceTree = "<group>"; };
+		CB7FB66F225DDCFD0058FB00 /* CuvvaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuvvaUIView.swift; sourceTree = "<group>"; };
+		CB7FB671225DE1D90058FB00 /* CuvvaUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuvvaUILabel.swift; sourceTree = "<group>"; };
+		CB7FB673225DF0B90058FB00 /* CuvvaShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuvvaShadow.swift; sourceTree = "<group>"; };
+		CB7FB675225DFB890058FB00 /* Extension+CuvvaShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CuvvaShadow.swift"; sourceTree = "<group>"; };
+		CB7FB677225E049C0058FB00 /* CuvvaUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuvvaUIButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB7FB615225D1DC10058FB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7FB629225D1DC30058FB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7FB634225D1DC30058FB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB7FB60F225D1DC10058FB00 = {
+			isa = PBXGroup;
+			children = (
+				CB7FB668225D489F0058FB00 /* Resources */,
+				CB7FB649225D1DDA0058FB00 /* Theme */,
+				CB7FB61A225D1DC10058FB00 /* swift-theme-demo */,
+				CB7FB62F225D1DC30058FB00 /* swift-theme-demoTests */,
+				CB7FB63A225D1DC30058FB00 /* swift-theme-demoUITests */,
+				CB7FB619225D1DC10058FB00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7FB619225D1DC10058FB00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB618225D1DC10058FB00 /* swift-theme-demo.app */,
+				CB7FB62C225D1DC30058FB00 /* swift-theme-demoTests.xctest */,
+				CB7FB637225D1DC30058FB00 /* swift-theme-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7FB61A225D1DC10058FB00 /* swift-theme-demo */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB61B225D1DC10058FB00 /* AppDelegate.swift */,
+				CB7FB61D225D1DC10058FB00 /* ViewController.swift */,
+				CB7FB61F225D1DC10058FB00 /* Main.storyboard */,
+				CB7FB622225D1DC20058FB00 /* Assets.xcassets */,
+				CB7FB624225D1DC20058FB00 /* LaunchScreen.storyboard */,
+				CB7FB627225D1DC30058FB00 /* Info.plist */,
+			);
+			path = "swift-theme-demo";
+			sourceTree = "<group>";
+		};
+		CB7FB62F225D1DC30058FB00 /* swift-theme-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB630225D1DC30058FB00 /* swift_theme_demoTests.swift */,
+				CB7FB632225D1DC30058FB00 /* Info.plist */,
+			);
+			path = "swift-theme-demoTests";
+			sourceTree = "<group>";
+		};
+		CB7FB63A225D1DC30058FB00 /* swift-theme-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB63B225D1DC30058FB00 /* swift_theme_demoUITests.swift */,
+				CB7FB63D225D1DC30058FB00 /* Info.plist */,
+			);
+			path = "swift-theme-demoUITests";
+			sourceTree = "<group>";
+		};
+		CB7FB649225D1DDA0058FB00 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB667225D48840058FB00 /* Components */,
+				CB7FB658225D2D5C0058FB00 /* Enums */,
+				CB7FB651225D26E80058FB00 /* Extensions */,
+				CB7FB64C225D21110058FB00 /* Models */,
+				CB7FB665225D458B0058FB00 /* CuvvaThemeManager.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		CB7FB64C225D21110058FB00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB673225DF0B90058FB00 /* CuvvaShadow.swift */,
+				CB7FB64A225D1DEA0058FB00 /* CuvvaTheme.swift */,
+				CB7FB64D225D211F0058FB00 /* CuvvaFont.swift */,
+				CB7FB661225D38D40058FB00 /* Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB7FB651225D26E80058FB00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB652225D26F90058FB00 /* Extension+CuvvaFont.swift */,
+				CB7FB675225DFB890058FB00 /* Extension+CuvvaShadow.swift */,
+				CB7FB656225D2CE40058FB00 /* Extension+CuvvaTheme.swift */,
+				CB7FB654225D27E60058FB00 /* Extension+UIColor.swift */,
+				CB7FB65B225D305B0058FB00 /* Extension+NSDictionary.swift */,
+				CB7FB65D225D32610058FB00 /* Extension+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CB7FB658225D2D5C0058FB00 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB659225D2D680058FB00 /* ThemeEnums.swift */,
+				CB7FB65F225D38690058FB00 /* Notifications.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CB7FB667225D48840058FB00 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB66D225D48D10058FB00 /* CuvvaViewController.swift */,
+				CB7FB66F225DDCFD0058FB00 /* CuvvaUIView.swift */,
+				CB7FB671225DE1D90058FB00 /* CuvvaUILabel.swift */,
+				CB7FB677225E049C0058FB00 /* CuvvaUIButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CB7FB668225D489F0058FB00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FB66A225D48A90058FB00 /* dark_theme.json */,
+				CB7FB669225D48A90058FB00 /* default_theme.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB7FB617225D1DC10058FB00 /* swift-theme-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7FB640225D1DC30058FB00 /* Build configuration list for PBXNativeTarget "swift-theme-demo" */;
+			buildPhases = (
+				CB7FB614225D1DC10058FB00 /* Sources */,
+				CB7FB615225D1DC10058FB00 /* Frameworks */,
+				CB7FB616225D1DC10058FB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-theme-demo";
+			productName = "swift-theme-demo";
+			productReference = CB7FB618225D1DC10058FB00 /* swift-theme-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB7FB62B225D1DC30058FB00 /* swift-theme-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7FB643225D1DC30058FB00 /* Build configuration list for PBXNativeTarget "swift-theme-demoTests" */;
+			buildPhases = (
+				CB7FB628225D1DC30058FB00 /* Sources */,
+				CB7FB629225D1DC30058FB00 /* Frameworks */,
+				CB7FB62A225D1DC30058FB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7FB62E225D1DC30058FB00 /* PBXTargetDependency */,
+			);
+			name = "swift-theme-demoTests";
+			productName = "swift-theme-demoTests";
+			productReference = CB7FB62C225D1DC30058FB00 /* swift-theme-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB7FB636225D1DC30058FB00 /* swift-theme-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7FB646225D1DC30058FB00 /* Build configuration list for PBXNativeTarget "swift-theme-demoUITests" */;
+			buildPhases = (
+				CB7FB633225D1DC30058FB00 /* Sources */,
+				CB7FB634225D1DC30058FB00 /* Frameworks */,
+				CB7FB635225D1DC30058FB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7FB639225D1DC30058FB00 /* PBXTargetDependency */,
+			);
+			name = "swift-theme-demoUITests";
+			productName = "swift-theme-demoUITests";
+			productReference = CB7FB637225D1DC30058FB00 /* swift-theme-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB7FB610225D1DC10058FB00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Cuvva;
+				TargetAttributes = {
+					CB7FB617225D1DC10058FB00 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CB7FB62B225D1DC30058FB00 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CB7FB617225D1DC10058FB00;
+					};
+					CB7FB636225D1DC30058FB00 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CB7FB617225D1DC10058FB00;
+					};
+				};
+			};
+			buildConfigurationList = CB7FB613225D1DC10058FB00 /* Build configuration list for PBXProject "swift-theme-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB7FB60F225D1DC10058FB00;
+			productRefGroup = CB7FB619225D1DC10058FB00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB7FB617225D1DC10058FB00 /* swift-theme-demo */,
+				CB7FB62B225D1DC30058FB00 /* swift-theme-demoTests */,
+				CB7FB636225D1DC30058FB00 /* swift-theme-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB7FB616225D1DC10058FB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7FB626225D1DC20058FB00 /* LaunchScreen.storyboard in Resources */,
+				CB7FB66C225D48A90058FB00 /* dark_theme.json in Resources */,
+				CB7FB66B225D48A90058FB00 /* default_theme.json in Resources */,
+				CB7FB623225D1DC20058FB00 /* Assets.xcassets in Resources */,
+				CB7FB621225D1DC10058FB00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7FB62A225D1DC30058FB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7FB635225D1DC30058FB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB7FB614225D1DC10058FB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7FB660225D38690058FB00 /* Notifications.swift in Sources */,
+				CB7FB65A225D2D680058FB00 /* ThemeEnums.swift in Sources */,
+				CB7FB666225D458B0058FB00 /* CuvvaThemeManager.swift in Sources */,
+				CB7FB672225DE1D90058FB00 /* CuvvaUILabel.swift in Sources */,
+				CB7FB61E225D1DC10058FB00 /* ViewController.swift in Sources */,
+				CB7FB64E225D211F0058FB00 /* CuvvaFont.swift in Sources */,
+				CB7FB662225D38D40058FB00 /* Color.swift in Sources */,
+				CB7FB655225D27E60058FB00 /* Extension+UIColor.swift in Sources */,
+				CB7FB66E225D48D10058FB00 /* CuvvaViewController.swift in Sources */,
+				CB7FB61C225D1DC10058FB00 /* AppDelegate.swift in Sources */,
+				CB7FB678225E049C0058FB00 /* CuvvaUIButton.swift in Sources */,
+				CB7FB670225DDCFD0058FB00 /* CuvvaUIView.swift in Sources */,
+				CB7FB657225D2CE40058FB00 /* Extension+CuvvaTheme.swift in Sources */,
+				CB7FB674225DF0B90058FB00 /* CuvvaShadow.swift in Sources */,
+				CB7FB676225DFB890058FB00 /* Extension+CuvvaShadow.swift in Sources */,
+				CB7FB65E225D32610058FB00 /* Extension+String.swift in Sources */,
+				CB7FB64B225D1DEA0058FB00 /* CuvvaTheme.swift in Sources */,
+				CB7FB65C225D305B0058FB00 /* Extension+NSDictionary.swift in Sources */,
+				CB7FB653225D26F90058FB00 /* Extension+CuvvaFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7FB628225D1DC30058FB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7FB631225D1DC30058FB00 /* swift_theme_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7FB633225D1DC30058FB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7FB63C225D1DC30058FB00 /* swift_theme_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB7FB62E225D1DC30058FB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB7FB617225D1DC10058FB00 /* swift-theme-demo */;
+			targetProxy = CB7FB62D225D1DC30058FB00 /* PBXContainerItemProxy */;
+		};
+		CB7FB639225D1DC30058FB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB7FB617225D1DC10058FB00 /* swift-theme-demo */;
+			targetProxy = CB7FB638225D1DC30058FB00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB7FB61F225D1DC10058FB00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7FB620225D1DC10058FB00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB7FB624225D1DC20058FB00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7FB625225D1DC20058FB00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB7FB63E225D1DC30058FB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB7FB63F225D1DC30058FB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB7FB641225D1DC30058FB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-theme-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuvva.swift-theme-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB7FB642225D1DC30058FB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-theme-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuvva.swift-theme-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB7FB644225D1DC30058FB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-theme-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuvva.swift-theme-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-theme-demo.app/swift-theme-demo";
+			};
+			name = Debug;
+		};
+		CB7FB645225D1DC30058FB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-theme-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuvva.swift-theme-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-theme-demo.app/swift-theme-demo";
+			};
+			name = Release;
+		};
+		CB7FB647225D1DC30058FB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-theme-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuvva.swift-theme-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-theme-demo";
+			};
+			name = Debug;
+		};
+		CB7FB648225D1DC30058FB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-theme-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuvva.swift-theme-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-theme-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB7FB613225D1DC10058FB00 /* Build configuration list for PBXProject "swift-theme-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7FB63E225D1DC30058FB00 /* Debug */,
+				CB7FB63F225D1DC30058FB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7FB640225D1DC30058FB00 /* Build configuration list for PBXNativeTarget "swift-theme-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7FB641225D1DC30058FB00 /* Debug */,
+				CB7FB642225D1DC30058FB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7FB643225D1DC30058FB00 /* Build configuration list for PBXNativeTarget "swift-theme-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7FB644225D1DC30058FB00 /* Debug */,
+				CB7FB645225D1DC30058FB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7FB646225D1DC30058FB00 /* Build configuration list for PBXNativeTarget "swift-theme-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7FB647225D1DC30058FB00 /* Debug */,
+				CB7FB648225D1DC30058FB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB7FB610225D1DC10058FB00 /* Project object */;
+}
